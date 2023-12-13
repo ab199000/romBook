@@ -1,0 +1,55 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 83.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 8%;
+}
+
+.dropList {
+    width: 175px;
+    height: 45px;
+    padding: 0px 35px 0px 22px;
+    margin-right: 2.5%;
+    gap: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
+    background-color: #000000;
+
+    border-radius: 39px;
+
+    /* font-family: Inter; */
+    font-size: 20px;
+}
+
+.userAccBtn {
+    margin-left: 5%;
+}
+
+.favoriteListBtn {
+    margin-left: 3.5%;
+}
+
+.searchBlock {
+    width: 48%;
+    max-width: 585px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 81px;
+    background: #E7E7E7;
+}
