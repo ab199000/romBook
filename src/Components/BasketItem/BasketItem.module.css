@@ -1,0 +1,92 @@
+button{
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #C0C0C0;
+}
+
+.item{
+    width: 892px;
+    /* width: 74%; */
+    /* min-width: max-content; */
+    max-width: 1197px;
+    height: 205px;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    padding-left: 61px;
+    padding-right: 42px;
+
+    border-radius: 30px;
+    box-shadow: 0px 0px 28.6px 0px rgba(0, 0, 0, 0.15);
+}
+
+.bookimg{
+    width: 112px;
+    height: 145px;
+
+    margin-right: 5%;
+}
+
+.nameBook{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.author{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info{
+    margin-right: 15%;
+}
+
+.score{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15%;
+}
+
+.score p{
+    text-align: center; 
+    color: #000;
+
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;   
+}
+.priceItem{
+    margin-right: 6%;
+
+    color: #BA2828;
+
+    font-family: Inter;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.btnminus img, .btnplus img{
+    width: 17px;
+    height: 17px;
+}
+
+.cross img{
+    width: 30px;
+    height: 30px;
+}

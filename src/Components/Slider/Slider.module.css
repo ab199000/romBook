@@ -1,0 +1,21 @@
+.leftImg{
+    width: 789px;
+    height: 420px;
+}
+
+.rightBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rightBlock img{
+    width: 380px;
+    height: 195px;
+}
+
+.slider{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}

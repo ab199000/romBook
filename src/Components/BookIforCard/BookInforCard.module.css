@@ -1,0 +1,54 @@
+.card{
+    width: 790px;
+    height: 554px;
+    border-radius: 41px;
+    background: #FFF;
+    box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.15);
+}
+
+.topShelf{
+    display: flex;
+    gap: 28px;
+}
+
+.nameBooks{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.author{
+    color: #303030;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 289px;
+}
+
+.priceRed{
+    color: #BA2828;
+
+    font-family: Inter;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.mark{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mark p{
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 500;
+}
+.mark img{
+    width: 30px;
+}
