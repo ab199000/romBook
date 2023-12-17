@@ -30,7 +30,7 @@ export default function BookInforCard(){
                         <p>Твёрдая</p>
                         <p>464</p>
                         <p>2017</p>
-                        <p>Гейман с иллюстрациями Криса Риддула</p>
+                        <p>Гейман с иллюстрациями<br/> Криса Риддула</p>
                     </div>
                 </div>
                 <div className={styles.idBook}>
