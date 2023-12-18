@@ -1,0 +1,22 @@
+.bookInfor{
+    display: flex;
+    gap: 29px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    justify-content: center;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.description p{
+    font-family: Inter;
+    font-size: 20px;
+}

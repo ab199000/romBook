@@ -83,7 +83,7 @@ input:focus{
     display: flex;
     flex-direction: column;
     gap: 25px;
-
+    font-family: Inter;
     margin-left: 6%;
 }
 
@@ -107,6 +107,7 @@ input:focus{
 
 .feedbackBlock p{
     color: #FFFFFF;
+    font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 21px;
@@ -115,7 +116,7 @@ input:focus{
 
 .rights{
     color: #BBBBBB;
-
+    font-family: Inter;
     font-size: 20px;
     font-weight: 500;
 }
