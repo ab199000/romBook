@@ -12,7 +12,7 @@ export default function BookCard(item){
     return (
         <Link to={`/catalog/${item?.data?.productId}`}> 
             <div className={styles.card}>
-                <img src={bookImg} alt="imgBook"/>
+                <img src={item.data.bookImage} alt="imgBook"/>
                 <div className={styles.cardInfor}>
                     <p className={styles.nameBook}>{item?.data?.bookTitle}</p>
                     <p className={styles.author}>{item?.data?.author}</p>

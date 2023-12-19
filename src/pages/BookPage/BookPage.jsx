@@ -31,7 +31,7 @@ export default function BookPage() {
                         <BookInforCard data={data} />
                     </div>
                     <div className={styles.description}>
-                        <h3>{data?.bookTitle}</h3>
+                        <h3>Описание</h3>
                         <p>{data?.description}</p>
                     </div>
                 </div>
