@@ -7,8 +7,9 @@ import BasketItem from "../../Components/BasketItem/BasketItem.jsx";
 
 export default function Basket(){
     return (
-        <main className={styles.basket}>
+        <>
             <Header/>
+            <main className={styles.basket}>
                 <div className={styles.basketItemList}>
                     <h1 className={styles.basketName}>Корзина</h1>
                     <BasketItem/>
@@ -16,7 +17,8 @@ export default function Basket(){
                     <BasketItem/>
                     <button className={styles.btnBuy}>Оформить заказ</button>
                 </div>
+            </main>
             <Footer/>
-        </main>
+        </>
     )
 }

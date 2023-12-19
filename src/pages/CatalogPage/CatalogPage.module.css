@@ -1,0 +1,28 @@
+.booksSection{
+    padding: 0 20px;
+    max-width: 1200px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 20px;
+}
+@media screen and (min-width: 600px) {
+    .booksSection{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .booksSection{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .booksSection{
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+

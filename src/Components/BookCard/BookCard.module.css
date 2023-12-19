@@ -3,24 +3,27 @@ p{
 }
 .card{
     position: relative;
-    width: 216px;
+    min-width: 216px;
+    max-width: 300px;
     height: 401px;
     padding: 35px 31px 32px 31px;
     display: flex;
     flex-direction: column;
     gap: 45px;
     border-radius: 12.973px;
-
     box-shadow: 1.853px 0.927px 12.047px 0px rgba(0, 0, 0, 0.20);
 }
 
+.card img{
+    margin: 0 auto;
+}
 .card img{
     max-width: 216px;
     max-height: 281;
 }
 
 .cardInfor{
-
+    color: black  
 }
 
 .shelfDown{

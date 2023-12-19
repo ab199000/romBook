@@ -1,24 +1,42 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Bookpage.module.css"
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
-import BookInforCard from "../../Components/BookInforCard/BookInforCard";
 
-export default function BookPage(){
+import bookImg from "../../img/nikogde.jpg"
+import BookInforCard from "../../Components/BookInforCard/BookInforCard";
+import { useParams } from "react-router-dom";
+import { getProduct } from "../../service/requests";
+
+export default function BookPage() {
+    const { id } = useParams()
+
+    const [ data, setData ] = useState({})
+
+    useEffect(()=>{
+        getProduct(id)
+        .then((res)=>{
+            setData(res.data)
+            console.log(res.data);
+        })
+    },[id])
+
     return (
-        <main>
-            <Header/>
+        <>
+            <Header />
+            <main>
                 <div className={styles.BookPage}>
                     <div className={styles.bookInfor}>
-                        <img className={styles.bookImg} src="./img/nikogde.jpg" alt="book" />
-                        <BookInforCard/>
+                        <img className={styles.bookImg} src={data?.bookImage} alt="book" />
+                        <BookInforCard data={data} />
                     </div>
                     <div className={styles.description}>
-                        <h3>Описание</h3>
-                        <p>Новое уникальное издание культового романа Нила Геймана «Никогде». Блестящий дебют одного из самых популярных писателей в мире. Эта книга более двадцати лет не перестает удивлять фанатов и покорять новые поколения читателей. Невероятный мир подземного города, реальность и миф, сногсшибательные сюжетные повороты и постоянное напряжение, чисто английский юмор и по-настоящему высокая трагедия. Сотни переизданий по всему миру, неизменно высокие рейтинги продаж, но в этот раз всех ждет настоящий сюрприз. Сто сорок иллюстраций от известнейшего книжного художника Криса Риддела в мельчайших подробностях воссоздают всю географию Нижнего Лондона и представят каждого героя крупным планом. Будьте уверены, теперь вы знаете в лицо всех обитателей таинственного London Underground! И уж точно не заблудитесь, если случайно откроете дверь, ведущую в удивительный мир «Никогде». А для самых преданных поклонников в издание включено интервью с Нилом Гейманом, в котором он расскажет, какие у него самые любимые станции метро, и новый перевод новеллы «Как маркиз получил свой плащ назад».</p>
+                        <h3>{data?.bookTitle}</h3>
+                        <p>{data?.description}</p>
                     </div>
                 </div>
-            <Footer/>
-        </main>
+            </main>
+            <Footer />
+        </>
     )
 }

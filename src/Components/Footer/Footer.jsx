@@ -1,12 +1,18 @@
 import React from "react";
 import styles from "./Footer.module.css"
 
+import logoFooter from "../../img/logoFooter.svg"
+import okLogo from "../../img/okLogo.svg"
+import youtubeLogo from "../../img/youtubeLogo.svg"
+import vkLogo from "../../img/vkLogo.svg"
+import telegramLogo from "../../img/telegramLogo.svg"
+
 export default function Footer(){
     return (
         <footer>
             <div className={styles.container}>
                 <div className="logo">
-                    <img src="./img/logoFooter.svg" alt="logo" />
+                    <img src={logoFooter} alt="logo" />
                 </div>
 
                 <ul className={styles.listLinks}>
@@ -36,22 +42,22 @@ export default function Footer(){
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="./img/okLogo.svg" alt="Ok" />
+                                    <img src={okLogo} alt="Ok" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="./img/youtubeLogo.svg" alt="YouTube" />
+                                    <img src={youtubeLogo} alt="YouTube" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="./img/vkLogo.svg" alt="Vk" />
+                                    <img src={vkLogo} alt="Vk" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="./img/telegramLogo.svg" alt="Telegram" />
+                                    <img src={telegramLogo} alt="Telegram" />
                                 </a>
                             </li>
                         </ul>

@@ -1,23 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./BookCard.module.css"
 
+import bookImg from "../../img/alisBook.jpg"
+import star from "../../img/star.svg"
+import heart from "../../img/heart.svg"
+import { Link } from "react-router-dom";
 
-export default function BookCard(){
+
+export default function BookCard(item){
+  
     return (
-        <div className={styles.card}>
-            <img src="./img/alisBook.jpg" alt="imgBook"/>
-            <div className={styles.cardInfor}>
-                <p className={styles.nameBook}>Алиса в стране чудес</p>
-                <p className={styles.author}>Льюис Кэрролл</p>
-                <div className={styles.shelfDown}>
-                    <p className={styles.price}>432 ₽</p>
-                    <div className={styles.markBlock}>
-                        <p>4.2</p>
-                        <img src="./img/star.svg" alt="star" />
+        <Link to={`/catalog/${item?.data?.productId}`}> 
+            <div className={styles.card}>
+                <img src={bookImg} alt="imgBook"/>
+                <div className={styles.cardInfor}>
+                    <p className={styles.nameBook}>{item?.data?.bookTitle}</p>
+                    <p className={styles.author}>{item?.data?.author}</p>
+                    <div className={styles.shelfDown}>
+                        <p className={styles.price}>{item?.data?.price}</p>
+                        <div className={styles.markBlock}>
+                            <p>{item?.data?.rating}</p>
+                            <img src={star} alt="star" />
+                        </div>
                     </div>
                 </div>
+                <img className={styles.btnLike} src={heart} alt="#" />
             </div>
-            <img className={styles.btnLike} src="./img/heart.svg" alt="#" />
-        </div>
+        </Link>
     )
 }

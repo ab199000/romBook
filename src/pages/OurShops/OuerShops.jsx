@@ -5,6 +5,8 @@ import Map from "../../Components/Map/Map.jsx";
 import Header from "../../Components/Header/Header.jsx";
 import Footer from "../../Components/Footer/Footer.jsx";
 
+import logo from "../../img/logo.svg"
+
 export default function OurShops(){
     return (
         <div className={styles.page}>
@@ -17,7 +19,7 @@ export default function OurShops(){
                     <p>г. Калуга улица Кирова, 43</p>
                 </div>
                 <div className={styles.cardTime}>
-                    <img src="./img/logo.svg" alt="logo" />
+                    <img src={logo} alt="logo" />
                     <div className={styles.cardText}>
                         <p className={styles.statusName}>Открыто</p>
                         <p className={styles.time}>с 9:00 до 20:00</p>
