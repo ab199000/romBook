@@ -16,10 +16,10 @@ p{
 
 .card img{
     margin: 0 auto;
-}
-.card img{
+    /* width: 216px;
+    height: 281; */
     max-width: 216px;
-    max-height: 281;
+    max-height: 281px;
 }
 
 .cardInfor{

@@ -16,8 +16,8 @@ import Header from "../Components/Header/Header";
 function App() {
     return (
         <div className="App">
-            <Header/>
-            <Slider/>
+            {/* <Header/> */}
+            {/* <Slider/> */}
             {/* <AboutUs/> */}
             {/* <BookPage/> */}
             {/* {/* <Basket/> */}
