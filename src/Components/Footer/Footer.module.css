@@ -28,7 +28,7 @@ footer::before{
     top: 25px;
 }
 
-a{
+.listLinks a{
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;

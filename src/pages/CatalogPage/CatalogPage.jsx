@@ -23,7 +23,7 @@ export default function CatalogPage() {
         <Header/>
 
         <main>
-          <Slider/>
+          {/* <Slider/> */}
 
           <section className={styles.booksSection}>
 

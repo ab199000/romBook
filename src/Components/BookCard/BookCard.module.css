@@ -23,7 +23,10 @@ p{
 }
 
 .cardInfor{
-    color: black  
+    width: 77%;
+    color: black;
+    position: absolute;
+    bottom: 32px;
 }
 
 .shelfDown{
@@ -55,6 +58,8 @@ p{
     display: flex;
     align-items: center;
     gap: 9px;
+    position: absolute;
+    right: 0px;
 }
 
 .markBlock p{

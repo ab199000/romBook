@@ -1,0 +1,41 @@
+.catalog {
+    width: 341px;
+    height: 71px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    border-radius: 39px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.catalogNames {
+    width: 340px;
+    height: 544px;
+
+    padding: 10px 20px 20px 20px;
+
+    position: absolute;
+    left: 7px;
+    top: 0px;
+
+    border-radius: 0px 0px 43px 0px;
+    background: rgb(0, 0, 0);
+    z-index: 3;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    margin-top: 32px;
+}
+
+.list a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 22px;
+}

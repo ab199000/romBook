@@ -10,6 +10,7 @@
 .topShelf{
     display: flex;
     gap: 28px;
+    position: relative;
 }
 
 .nameBooks{
@@ -31,13 +32,13 @@
     align-items: center;
     gap: 289px;
     padding-top: 74px;
-
 }
 
 .priceRed{
     color: #BA2828;
 
-
+    position: absolute;
+    right: 0px;
     font-family: Inter;
     font-size: 31px;
     font-weight: 700;

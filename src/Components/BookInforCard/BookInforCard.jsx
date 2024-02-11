@@ -13,14 +13,13 @@ export default function BookInforCard({data}){
                 <div className={styles.nameBook}>
                     <p className={styles.nameBooks}>{data.bookTitle}</p>
                     <p className={styles.author}>{data.author}</p> 
-                    {/* ДОДЕЛАТЬ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
                 </div>
                 <div className={styles.price}>
                     <div className={styles.mark}>
-                        <p>4.2</p>
+                        <p>{data.rating}</p>
                         <img src={star} alt="star" />
                     </div>
-                    <p className={styles.priceRed}>432₽</p>
+                    <p className={styles.priceRed}>{data.price}₽</p>
                 </div>
             </div>
             <div className={styles.specifications}>
@@ -33,15 +32,15 @@ export default function BookInforCard({data}){
                         <p>Серия</p>
                     </div>
                     <div className={styles.specific}>
-                        <p>Твёрдая</p>
-                        <p>464</p>
-                        <p>2017</p>
-                        <p>Гейман с иллюстрациями<br/> Криса Риддула</p>
+                        <p>{data.coverType}</p>
+                        <p>{data.numberOfPages}</p>
+                        <p>{data.coverType}</p>
+                        <p>{data.bookSeries}</p>
                     </div>
                 </div>
                 <div className={styles.idBook}>
                     <p>ID товара</p>
-                    <p>000001</p>
+                    <p>{data.productId}</p>
                 </div>
                 
             </div>

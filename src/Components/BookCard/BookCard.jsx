@@ -17,7 +17,7 @@ export default function BookCard(item){
                     <p className={styles.nameBook}>{item?.data?.bookTitle}</p>
                     <p className={styles.author}>{item?.data?.author}</p>
                     <div className={styles.shelfDown}>
-                        <p className={styles.price}>{item?.data?.price}</p>
+                        <p className={styles.price}>{item?.data?.price}₽</p>
                         <div className={styles.markBlock}>
                             <p>{item?.data?.rating}</p>
                             <img src={star} alt="star" />
