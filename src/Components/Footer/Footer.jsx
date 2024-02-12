@@ -6,14 +6,15 @@ import okLogo from "../../img/okLogo.svg"
 import youtubeLogo from "../../img/youtubeLogo.svg"
 import vkLogo from "../../img/vkLogo.svg"
 import telegramLogo from "../../img/telegramLogo.svg"
+import { NavLink } from "react-router-dom";
 
 export default function Footer(){
     return (
         <footer>
             <div className={styles.container}>
-                <div className="logo">
+                <NavLink to={"/"} className="logo">
                     <img src={logoFooter} alt="logo" />
-                </div>
+                </NavLink>
 
                 <ul className={styles.listLinks}>
                     <li>

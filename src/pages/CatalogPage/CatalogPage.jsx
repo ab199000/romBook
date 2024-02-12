@@ -1,21 +1,15 @@
 import React, { useEffect, useState } from 'react'
-import Slider from "../../Components/Slider/Slider";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import BookCard from '../../Components/BookCard/BookCard';
-
+import {books }from "../../content/books" 
 import styles from "./CatalogPage.module.css"
-import { getProducts } from '../../service/requests';
 
 export default function CatalogPage() {
     const [products, setProducts ] = useState([])
 
     useEffect(()=>{
-        getProducts()
-        .then((res)=>{
-            console.log(res.data)
-            setProducts(res.data)
-        })
+      setProducts(books)
     },[])
 
   return (
@@ -23,11 +17,10 @@ export default function CatalogPage() {
         <Header/>
 
         <main>
-          {/* <Slider/> */}
 
           <section className={styles.booksSection}>
 
-            {products.length !== 0 ? products.map((item,idx)=>(<BookCard data={item}/> )) : <> </> }
+            {products.length !== 0 ? products.map((item,idx)=>(<BookCard data={item}/> )) : null }
             
           </section>
         </main>

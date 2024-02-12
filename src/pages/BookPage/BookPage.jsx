@@ -3,10 +3,9 @@ import styles from "./Bookpage.module.css"
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 
-import bookImg from "../../img/nikogde.jpg"
 import BookInforCard from "../../Components/BookInforCard/BookInforCard";
 import { useParams } from "react-router-dom";
-import { getProduct } from "../../service/requests";
+import {books }from "../../content/books"
 
 export default function BookPage() {
     const { id } = useParams()
@@ -14,11 +13,7 @@ export default function BookPage() {
     const [ data, setData ] = useState({})
 
     useEffect(()=>{
-        getProduct(id)
-        .then((res)=>{
-            setData(res.data)
-            console.log(res.data);
-        })
+        setData(books[id])
     },[id])
 
     return (

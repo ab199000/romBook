@@ -7,15 +7,16 @@ import iconMagnifier from "../../img/icon-magnifier.svg"
 import page from "../../img/page.svg"
 import heart from "../../img/heart.svg"
 import CatalogOfGenres from "../CatalogOfGenres/CatalogOfGenres";
+import { NavLink } from "react-router-dom";
 
 export default function Header(){
     const [isOpen, setIsOpen] = useState(false)
     return (
         <header>
             <div className={styles.container}>
-                <div className={styles.logo}>
+                <NavLink to={"/"} className={styles.logo}>
                     <img src={logo} alt="logo"/>
-                </div>
+                </NavLink>
 
                 <button className={styles.dropList} onClick={()=>{setIsOpen(true)}}>
                     <img src={bookOpen} alt="book-open" />

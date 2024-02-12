@@ -10,8 +10,7 @@ export default function MainPage() {
         <Header/>
 
         <main>
-          {/* <Slider/> */}
-          {/* <CatalogOfGenres/> */}
+          <Slider/>
         </main>
 
         <Footer/>
