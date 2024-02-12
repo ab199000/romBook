@@ -1,0 +1,81 @@
+@keyframes slide {
+    0% {opacity: 0.9;}
+    50% {opacity: 1;}
+    100%{opacity: 1;}
+}
+
+.leftImg{
+    width: 790px;
+    height: 420px;
+
+    border-radius: 16px;
+
+    position: relative;
+    background: rgba(237, 237, 237, 0.3);
+
+}
+
+.rightBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rightBlock img{
+    width: 380px;
+    height: 195px;
+}
+
+.slider{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.circleL{
+    width: 65px;
+    height: 65px;
+
+    border-radius: 65px;
+    background: rgba(255, 255, 255, 0.41);
+
+    position: absolute;
+    top: 42%;
+    left: 25px;
+}
+
+.circleL:hover{
+    background: rgba(240, 240, 240, 0.41);
+}
+
+.circleR{
+    width: 65px;
+    height: 65px;
+
+    border-radius: 65px;
+    background: rgba(255, 255, 255, 0.41);
+
+    position: absolute;
+    top: 42%;
+    right: 25px;
+}
+
+.circleR:hover{
+    background: rgba(240, 240, 240, 0.41);
+}
+
+.slideAnimation{
+    width: 790px;
+    height: 420px;
+    /* animation: slide 2s infinite; */
+    transition: all 0.3s;
+    animation: slide 10s infinite ease-in-out;
+}
+
+.slideAnimation:hover{
+    filter: grayscale(10%);
+}
+
+.slider:hover .slideAnimation{
+    animation: none;
+}

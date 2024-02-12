@@ -1,0 +1,87 @@
+p,h1{
+    width: max-content;
+}
+
+h1{
+    /* margin: 28px 0px; */
+    font-family: Inter;
+    font-size: 36px;
+    margin-bottom: 28px;
+}
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    gap: 20%;
+
+    padding-top: 70px;
+}
+
+.address{
+    font-family: Inter;
+    font-size: 36px;
+}
+
+.cardTime{
+    width: 380px;
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 49px;
+    margin-bottom: 100px;
+
+    border-radius: 34px;
+    box-shadow: -2px -1px 34.6px 1px rgba(0, 0, 0, 0.25);
+}
+
+.cardTime img{
+    height: 76px;
+    padding-bottom: 28px;
+}
+
+.cardText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter;
+    font-size: 36px;
+    padding: 17px 0px 29px 0px;
+}
+
+.statusName{
+    font-family: Inter;
+    font-size: 43px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.time{
+    margin-bottom: 12px;
+}
+
+.cardText::before{
+    content: "";
+    position: absolute;
+    width: 303px;
+    height: 1px;
+    background: #000000;
+    top: 0px;
+}
+
+.cardText::after{
+    content: "";
+    position: absolute;
+    width: 303px;
+    height: 1px;
+    background: #000000;
+    bottom: 0px;
+}

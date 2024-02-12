@@ -1,0 +1,75 @@
+p{
+    width: max-content;
+}
+.card{
+    position: relative;
+    min-width: 216px;
+    max-width: 300px;
+    height: 401px;
+    padding: 35px 31px 32px 31px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    border-radius: 12.973px;
+    box-shadow: 1.853px 0.927px 12.047px 0px rgba(0, 0, 0, 0.20);
+}
+
+.card img{
+    margin: 0 auto;
+    /* width: 216px;
+    height: 281; */
+    max-width: 216px;
+    max-height: 281px;
+}
+
+.cardInfor{
+    width: 77%;
+    color: black;
+    position: absolute;
+    bottom: 32px;
+}
+
+.shelfDown{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+}
+
+.nameBook{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.author{
+    color: #303030;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.price{
+    color: #BA2828;
+
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.markBlock{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    position: absolute;
+    right: 0px;
+}
+
+.markBlock p{
+    font-size: 19px;
+}
+
+.btnLike{
+    width: 26px;
+    height: 24px;
+    position: absolute;
+    top: 23px;
+    right: 23px;
+}
