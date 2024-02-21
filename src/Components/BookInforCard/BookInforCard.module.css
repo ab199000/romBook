@@ -29,9 +29,9 @@
 
 .price{
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 289px;
-    padding-top: 74px;
+    /* padding-top: 74px; */
 }
 
 .priceRed{

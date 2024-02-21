@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Bookpage.module.css"
-import Header from "../../Components/Header/Header";
+import Header from "../../Components/Header/NavBar";
 import Footer from "../../Components/Footer/Footer";
 
 import BookInforCard from "../../Components/BookInforCard/BookInforCard";
@@ -26,7 +26,7 @@ export default function BookPage() {
                         <BookInforCard data={data} />
                     </div>
                     <div className={styles.description}>
-                        <h3>Описание</h3>
+                        <h3 className={styles.h3}>Описание</h3>
                         <p>{data?.description}</p>
                     </div>
                 </div>

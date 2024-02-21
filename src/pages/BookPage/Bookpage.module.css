@@ -24,3 +24,10 @@
 .bookImg{
     max-height: 550px;
 }
+
+.h3{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    width: max-content;
+}

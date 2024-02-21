@@ -7,10 +7,10 @@ import heart from "../../img/heart.svg"
 import { Link } from "react-router-dom";
 
 
-export default function BookCard(item){
+export default function BookCard(item, key){
   
     return (
-        <Link to={`/catalog/${item?.data?.productId}`}> 
+        <Link to={`/catalog/${item.data.productId}`} key={key}> 
             <div className={styles.card}>
                 <img src={item.data.bookImage} alt="imgBook"/>
                 <div className={styles.cardInfor}>

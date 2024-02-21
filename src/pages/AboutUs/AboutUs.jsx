@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./AboutUs.module.css"
-import Header from "../../Components/Header/Header";
+import Header from "../../Components/Header/NavBar";
 import Footer from "../../Components/Footer/Footer";
 
 export default function AboutUs(){
