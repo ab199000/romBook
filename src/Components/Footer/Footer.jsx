@@ -18,16 +18,16 @@ export default function Footer(){
 
                 <ul className={styles.listLinks}>
                     <li>
-                        <a href="#">В НАШИХ МАГАЗИНАХ</a>
+                        <NavLink to={"/catalog"}>В НАШИХ МАГАЗИНАХ</NavLink>
                     </li>
                     <li>
-                        <a href="#">АДРЕСА МАГАЗИНОВ</a>
+                        <NavLink to={"/our_shop"}>АДРЕСА МАГАЗИНОВ</NavLink>
                     </li>
+                    {/* <li>
+                        <NavLink to={"/"}>НАШИ ПАРТНЁРЫ</NavLink>
+                    </li> */}
                     <li>
-                        <a href="#">НАШИ ПАРТНЁРЫ</a>
-                    </li>
-                    <li>
-                        <a href="#">О КОМПАНИИ</a>
+                        <NavLink to={"/about"}>О КОМПАНИИ</NavLink>
                     </li>
                 </ul>
 
@@ -42,22 +42,22 @@ export default function Footer(){
                     <div className={styles.messengersList}>
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="https://ok.ru">
                                     <img src={okLogo} alt="Ok" />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://www.youtube.com/">
                                     <img src={youtubeLogo} alt="YouTube" />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://vk.com/">
                                     <img src={vkLogo} alt="Vk" />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://t.me">
                                     <img src={telegramLogo} alt="Telegram" />
                                 </a>
                             </li>

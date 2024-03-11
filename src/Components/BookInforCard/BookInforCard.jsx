@@ -17,7 +17,7 @@ export default function BookInforCard({data}){
                 <div className={styles.price}>
                     <div className={styles.mark}>
                         <p>{data.rating}</p>
-                        <img src={star} alt="star" />
+                        <img src={star} alt="star"/>
                     </div>
                     <p className={styles.priceRed}>{data.price}₽</p>
                 </div>

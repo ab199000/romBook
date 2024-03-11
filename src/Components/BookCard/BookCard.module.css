@@ -12,6 +12,17 @@ p{
     gap: 45px;
     border-radius: 12.973px;
     box-shadow: 1.853px 0.927px 12.047px 0px rgba(0, 0, 0, 0.20);
+    transition: .6s;
+    z-index: 3;
+}
+
+.card:hover{
+    position: relative;
+
+    z-index: 3;
+
+    box-shadow: 3px 1.2px 12.047px 0px rgba(0, 0, 0, 0.20);
+    transform: scale(105%);
 }
 
 .card img{
@@ -27,6 +38,9 @@ p{
     color: black;
     position: absolute;
     bottom: 32px;
+
+    outline: none;
+    overflow: hidden;
 }
 
 .shelfDown{
@@ -72,4 +86,15 @@ p{
     position: absolute;
     top: 23px;
     right: 23px;
+    fill:white;
+    transition: all .6s;
+}
+
+.btnLike:hover{
+    fill:red;
+}
+
+
+.btnLike:hover path {
+    stroke:red;
 }

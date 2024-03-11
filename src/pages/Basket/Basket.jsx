@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../Components/Header/NavBar.jsx";
+import Header from "../../Components/NavBar/NavBar.jsx";
 import Footer from "../../Components/Footer/Footer.jsx";
 import styles from "./Basket.module.css"
 import BasketItem from "../../Components/BasketItem/BasketItem.jsx";
@@ -7,18 +7,14 @@ import BasketItem from "../../Components/BasketItem/BasketItem.jsx";
 
 export default function Basket(){
     return (
-        <>
-            <Header/>
-            <main className={styles.basket}>
-                <div className={styles.basketItemList}>
-                    <h1 className={styles.basketName}>Корзина</h1>
-                    <BasketItem/>
-                    <BasketItem/>
-                    <BasketItem/>
-                    <button className={styles.btnBuy}>Оформить заказ</button>
-                </div>
-            </main>
-            <Footer/>
-        </>
+        <main className={styles.basket}>
+            <div className={styles.basketItemList}>
+                <h1 className={styles.basketName}>Корзина</h1>
+                <BasketItem/>
+                <BasketItem/>
+                <BasketItem/>
+                <button className={styles.btnBuy}>Оформить заказ</button>
+            </div>
+        </main>
     )
 }

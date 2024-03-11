@@ -1,37 +1,65 @@
 .listBlok {
-    padding-top: 50px;
+    padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
+
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
     align-items: center;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 
     max-width: 1200px;
+
+    position: relative;
+    z-index: 1;
 }
 
 .nameGenres {
+    display: inline-block;
     font-family: Inter;
     font-size: 36px;
     font-weight: 600;
     color: #000000;
-    
-}
-
-.nameGenres h3 {
-    font-family: Inter;
-    font-size: 36px;
-    font-weight: 600;
     width: max-content;
-    color: #000000;
-    margin-bottom: 30px;
 }
 
 .list {
     display: flex;
-    gap: 25px;
-    max-width: 1190px;
-    overflow: auto;
-    padding: 5px;
+    justify-content: center;
+    gap: 15px;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 35px 10px 25px 10px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.buttonScrol{
+    display: flex;
+    column-gap: 10px;
+}
+
+.arrow{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid rgb(58, 58, 58);
+    opacity: 0.5;
+}
+
+.arrow:hover{
+    opacity: 1;
+    transition: all .6s;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
 }

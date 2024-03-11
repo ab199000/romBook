@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./BasketItem.module.css"
 
 import bookImg from "../../img/alisBook.jpg"
@@ -7,6 +7,7 @@ import plus from "../../img/plus.svg"
 import cross from "../../img/cross.svg"
 
 export default function BasketItem(){
+    const [count, setCount] = useState(1)
     return (
         <div className={styles.item}>
             <img className={styles.bookimg} src={bookImg} alt="#" />
@@ -16,11 +17,15 @@ export default function BasketItem(){
             </div>
 
             <div className={styles.score}>
-                <button className={styles.btnminus}>
+                <button className={styles.btnminus} onClick={()=>{
+                    if(count > 1){
+                        setCount(count-1)
+                    }
+                    }}>
                     <img src={minus} alt="minus" />
                 </button>
-                <p>1</p>
-                <button className={styles.btnplus}>
+                <p>{count}</p>
+                <button className={styles.btnplus} onClick={()=>setCount(count+1)}>
                     <img src={plus} alt="plus" />
                 </button>
             </div>

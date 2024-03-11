@@ -1,3 +1,31 @@
+export const book1 = [
+  {
+    "productId": 0,
+    "bookTitle": "Война и мир",
+    "description": "Роман Льва Николаевича Толстого о войне 1812 года",
+    "price": 1200,
+    "author": "Лев Николаевич Толстой",
+    "rating": 4.8,
+    "coverType": "Твердая",
+    "numberOfPages": 1500,
+    "yearOfPublication": 1869,
+    "bookSeries": "Русская классика",
+    "bookImage": "https://igromaster.by/upload/iblock/f43/f43d8acb8f3abf706b5ce90890b67e95.jpg",
+    "reviews": [
+        {
+            "author": "Иван Петров",
+            "reviewText": "Отличная книга, великолепное описание событий.",
+            "rating": 5
+        },
+        {
+            "author": "Елена Сидорова",
+            "reviewText": "Читается немного тяжело, но стоит того.",
+            "rating": 4
+        }
+    ]
+}
+]
+
 
 export const books = [
     {

@@ -72,7 +72,7 @@
     height: 420px;
     /* animation: slide 2s infinite; */
     transition: all 0.3s;
-    animation: slide 10s infinite ease-in-out;
+    animation: slide 5s infinite ease-in-out;
 }
 
 .slideAnimation:hover{

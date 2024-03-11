@@ -2,15 +2,14 @@ import React from "react";
 
 import styles from "./OuerShops.module.css"
 import Map from "../../Components/Map/Map.jsx";
-import Header from "../../Components/Header/Header.jsx";
+import NavBar from "../../Components/NavBar/NavBar.jsx";
 import Footer from "../../Components/Footer/Footer.jsx";
 
 import logo from "../../img/logo.svg"
 
 export default function OurShops(){
     return (
-        <div className={styles.page}>
-            <Header/>
+        <main className={styles.page}>
             <h1>Наши магазины</h1>
             <Map/>
             <div className={styles.info}>
@@ -27,7 +26,6 @@ export default function OurShops(){
                     </div>
                 </div>
             </div>
-            <Footer/>
-        </div>
+        </main>
     )
 }

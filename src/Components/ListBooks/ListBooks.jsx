@@ -1,17 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./ListBooks.module.css"
 import { NavLink } from "react-router-dom";
 import BookCard from "../BookCard/BookCard";
 
+import arrowLeft from "../../img/arrow-left.svg"
+import arrowRight from "../../img/arrow-right.svg"
+
 export default function ListBooks({way,books,nameGenres}){
+    const [numPosition, setNumPosition] = useState(1)
     return (
         <section className={styles.listBlok}>
-            <NavLink to={`/${way}`} className={styles.nameGenres}>
-                <h3>{nameGenres}</h3>
-            </NavLink>
-            <ul className={styles.list}>
-                {books.length ? books.map((book,index)=>(<li><BookCard data={book}/></li>)): null}
-            </ul>
+            <div className={styles.top}>
+                <NavLink to={`/${way}`} className={styles.nameGenres}>
+                    {nameGenres}
+                </NavLink>
+                <div className={styles.buttonScrol}>
+                    {numPosition == 1 ? null:
+                    <button className={styles.arrow} onClick={()=>{
+                        if (numPosition>1) {
+                            setNumPosition(numPosition-1)
+                        }
+                    }}>
+                        <img src={arrowLeft} alt="arrowLeft" />
+                    </button>}
+                    <button className={styles.arrow} onClick={()=>{
+                        if (numPosition<4) {
+                            setNumPosition(numPosition+1)
+                        }
+                    }}>
+                        <img src={arrowRight} alt="arrowRight" />
+                    </button>
+                </div>
+            </div>
+
+            <div className={styles.list}>
+                {books.length ? books.map((book,index)=>{
+                    console.log(index);
+                    if(numPosition*4-5 < index && index <= numPosition*4-1) return(<div className={styles.card}><BookCard data={book}/></div>)}): null}
+            </div>
         </section>
     )
 }

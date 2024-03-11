@@ -1,12 +1,10 @@
 import React from "react";
 import styles from "./AboutUs.module.css"
-import Header from "../../Components/Header/NavBar";
+import Header from "../../Components/NavBar/NavBar";
 import Footer from "../../Components/Footer/Footer";
 
 export default function AboutUs(){
     return (
-<>
-        <Header/>
         <main className={styles.about}>
             <h1>О компании</h1>
             <p>Добро пожаловать в наш книжный магазин! Мы - команда любителей книг, которая страстно верит в силу знаний и вдохновения, которые книги могут принести в нашу жизнь. Наш магазин предлагает широкий выбор книг различных жанров - от художественной литературы и детских книг до научных трудов и бестселлеров.</p>
@@ -17,7 +15,5 @@ export default function AboutUs(){
             <br/>
             <p>Мы приглашаем вас в мир книг вместе с нами. Погрузитесь в увлекательные истории, познавайте новые знания и находите вдохновение в каждой странице. Спасибо, что выбрали наш книжный магазин для ваших читательских приключений!</p>
         </main>
-        <Footer/>
-</>
     )
 }

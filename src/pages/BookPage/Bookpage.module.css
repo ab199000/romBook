@@ -2,7 +2,7 @@
     display: flex;
     gap: 29px;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     margin-bottom: 3%;
 }
 
@@ -30,4 +30,44 @@
     font-size: 36px;
     font-weight: 600;
     width: max-content;
+}
+
+.btnBuy{
+    width: 258px;
+    height: 55px;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 500;
+
+    border-radius: 68px;
+    background: rgb(186, 40, 40);
+}
+
+.btnCart{
+    width: 258px;
+    height: 55px;
+    color: #000000;
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 500;
+
+    border: 1px solid #000000;
+    border-radius: 68px;
+}
+
+.btnsBlok{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.btnBuy:hover{
+    box-shadow: 3px 1.2px 12.047px 0px rgba(0, 0, 0, 0.20);
+    transform: scale(105%);
+}
+
+.btnCart:hover{
+    box-shadow: 3px 1.2px 12.047px 0px rgba(0, 0, 0, 0.20);
+    transform: scale(105%);
 }

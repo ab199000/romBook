@@ -9,11 +9,13 @@
 
 .topShelf{
     display: flex;
-    gap: 28px;
+    column-gap: 28px;
     position: relative;
+    /* flex-wrap: wrap; */
 }
 
 .nameBooks{
+    max-width: 487px;
     font-family: Inter;
     font-size: 36px;
     font-weight: 600;
@@ -30,15 +32,18 @@
 .price{
     display: flex;
     align-items: start;
-    gap: 289px;
-    /* padding-top: 74px; */
+    flex-grow: 1;
+    /* gap: 289px; */
+    padding-top: 8px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .priceRed{
     color: #BA2828;
 
-    position: absolute;
-    right: 0px;
+    /* position: absolute; */
+    /* right: 0px; */
     font-family: Inter;
     font-size: 31px;
     font-weight: 700;

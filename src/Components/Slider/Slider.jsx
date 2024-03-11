@@ -19,7 +19,7 @@ const massImg = [imgForSlider1,imgForSlider4]
 export default function Slider(){
 
     let autoPlay = true
-    let autoPlayTime = 10000
+    let autoPlayTime = 5000
     const [items, setItems] = useState([])
     const [slide,setSlide] = useState(0)
     const [hover,setHover] = useState(false)
@@ -88,13 +88,9 @@ export default function Slider(){
     return (
         <div className={styles.slider} onTouchStart={handleTouchStart} onTouchEnd={handleTouchMove}
         onMouseEnter={()=>{
-            // setHover(true)
             clearInterval(intervalSlide)
-            // setIntervalSlide(null)
-            
         }}
         onMouseLeave={()=>{
-            // setHover(false)
             setSlide(slide)
             const interval = setInterval(() => {
                 changeSlide(1);
