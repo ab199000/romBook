@@ -89,7 +89,7 @@ export const books = [
         "numberOfPages": 384,
         "yearOfPublication": 1967,
         "bookSeries": null,
-        "bookImage": "https://slovo-shop.ru/image/cache/data/product/1430961-1100x1100.jpg",
+        "bookImage": "https://cdn.skidka-msk.ru/images/prodacts/sourse/62065/62065795_master-i-margarita-izdatelstvo-e.jpg",
         "reviews": [
             {
                 "author": "Анна Смирнова",

@@ -30,7 +30,7 @@ function App() {
                 <Route path="/adventures" element={<CatalogPage nameChapter={"Приключения"} genre={'adventures'} searchValue={searchValue}/>}/>
                 <Route path="/a_love_affair" element={<CatalogPage nameChapter={"Любовный роман"} genre={'a_love_affair'} searchValue={searchValue}/>}/>
                 <Route path="/a_historical_novel" element={<CatalogPage nameChapter={"Исторический роман"} genre={'a_historical_novel'} searchValue={searchValue}/>}/>
-                <Route path="/fantasy" element={<CatalogPage nameChapter={"Фантастика"} genre={'fantasy'}/>} searchValue={searchValue}/>
+                <Route path="/fantasy" element={<CatalogPage nameChapter={"Фантастика"} genre={'fantasy'} searchValue={searchValue}/>} />
                 <Route path="/fairy_tales" element={<CatalogPage nameChapter={"Сказки"} genre={'fairy_tales'} searchValue={searchValue}/>}/>
             </Routes>
             <Footer/>

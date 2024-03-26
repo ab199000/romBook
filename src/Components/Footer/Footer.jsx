@@ -35,8 +35,11 @@ export default function Footer(){
                     <div className={styles.feedbackBlock}>
                         <p>ОБРАТНАЯ СВЯЗЬ</p>
                         <div className={styles.mesMail}>
-                            <input type="mail" placeholder="test@mail.ru"/>
-                            <div className={styles.btnfeedback}></div>
+                            <a href="https://e.mail.ru/compose?to=test@mail.ru" className={styles.mailBlock}>
+                                {/* <input type="mail" placeholder="test@mail.ru"/> */}
+                                <span className={styles.mail}>test@mail.ru</span>
+                                <div className={styles.btnfeedback}></div>
+                            </a>
                         </div>
                     </div>
                     <div className={styles.messengersList}>

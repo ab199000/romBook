@@ -39,14 +39,20 @@ ul{
     list-style-type: none;
 }
 
-input{
+.mail{
     background: #4F4F4F;
     width: 196px;
-    height: 47px;
+    /* height: 47px; */
     border: 0px;
     padding-left: 16px;
     color: #C1C1C1;
     font-size: 20px;
+    padding-top: 14px;
+    font-weight: 300;
+}
+
+.mailBlock{
+    display: flex;
 }
 
 input::placeholder{
