@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Header from "../../Components/NavBar/NavBar";
-import Footer from "../../Components/Footer/Footer";
 import BookCard from '../../Components/BookCard/BookCard';
 
 import {allBooks }from "../../content/books" 

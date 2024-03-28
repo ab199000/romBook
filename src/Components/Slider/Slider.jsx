@@ -6,10 +6,6 @@ import imgForSlider2 from "../../img/imgForSlider2.svg"
 import imgForSlider3 from "../../img/imgForSlider3.svg"
 import imgForSlider4 from "../../img/slider/Group 15.jpg"
 
-import img1 from "../../img/slider/i(1).webp"
-import img3 from "../../img/slider/i(2).webp"
-import img2 from "../../img/slider/i.webp"
-
 import arrowLeft from "../../img/arrow-left.svg"
 import arrowRight from "../../img/arrow-right.svg"
 
@@ -22,8 +18,6 @@ export default function Slider(){
     let autoPlayTime = 5000
     const [items, setItems] = useState([])
     const [slide,setSlide] = useState(0)
-    const [hover,setHover] = useState(false)
-    const [touchPosition, setTouchPosition] = useState(null)
     const [intervalSlide, setIntervalSlide] = useState(null)
 
     const changeSlide = (direction = 1) => {
@@ -37,35 +31,6 @@ export default function Slider(){
     
             setSlide(slideNumber)
         }
-
-    // const goToSlide = (number) => {
-    //     setSlide(number % items.length);
-    // };
-    
-    const handleTouchStart = (e) => {
-        const touchDown = e.touches[0].clientX;
-        console.log(touchDown);
-        setTouchPosition(touchDown);
-    }
-    
-    const handleTouchMove = (e) => {
-        if (touchPosition === null) {
-            return;
-    }
-    
-    const currentPosition = e.touches[0].clientX;
-    const direction = touchPosition - currentPosition;
-    
-        if (direction > 10) {
-            changeSlide(1);
-        }
-    
-        if (direction < -10) {
-            changeSlide(-1);
-        }
-    
-        setTouchPosition(null);
-    }
     
     useEffect(() => {
         setItems(massImg)
@@ -76,17 +41,14 @@ export default function Slider(){
                 changeSlide(1);
             }, autoPlayTime)
             setIntervalSlide(interval)
-            
         }
-        
-    
         return () => {
             clearInterval(intervalSlide);
         }
     }, [items.length, slide]);
 
     return (
-        <div className={styles.slider} onTouchStart={handleTouchStart} onTouchEnd={handleTouchMove}
+        <div className={styles.slider}
         onMouseEnter={()=>{
             clearInterval(intervalSlide)
         }}

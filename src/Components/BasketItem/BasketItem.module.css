@@ -6,18 +6,14 @@ button{
     justify-content: center;
     align-items: center;
 
-    /* border: 1px solid #C0C0C0; */
 }
 
 .item{
     width: 892px;
-    /* width: 74%; */
-    /* min-width: max-content; */
     max-width: 1197px;
     height: 205px;
 
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 
     margin-left: auto;

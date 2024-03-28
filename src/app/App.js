@@ -17,7 +17,6 @@ function App() {
     return (
         <div className="App">
             <NavBar setSearchValue={setSearchValue}/>
-
             <Routes>
                 <Route path="/" element={<MainPage/>}/>
                 <Route path="/about" element={<AboutUs/>}/>

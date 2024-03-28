@@ -39,7 +39,7 @@ export default function Header({setSearchValue}){
                     <img src={page} alt="page" />
                 </button>
                 
-                <NavLink to={'/cart'} className={styles.favoriteListBtn}>
+                <NavLink  className={styles.favoriteListBtn}>
                     <img src={heart} alt="heart" />
                 </NavLink>
             </div>

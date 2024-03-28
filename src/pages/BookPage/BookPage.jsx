@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Bookpage.module.css"
-import Header from "../../Components/NavBar/NavBar";
-import Footer from "../../Components/Footer/Footer";
 
 import BookInforCard from "../../Components/BookInforCard/BookInforCard";
 import { useParams } from "react-router-dom";
@@ -9,7 +7,6 @@ import {books }from "../../content/books"
 
 export default function BookPage() {
     const { id } = useParams()
-
     const [ data, setData ] = useState({})
 
     useEffect(()=>{

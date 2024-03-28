@@ -2,9 +2,6 @@ import React from "react";
 
 import styles from "./OuerShops.module.css"
 import Map from "../../Components/Map/Map.jsx";
-import NavBar from "../../Components/NavBar/NavBar.jsx";
-import Footer from "../../Components/Footer/Footer.jsx";
-
 import logo from "../../img/logo.svg"
 
 export default function OurShops(){

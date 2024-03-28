@@ -7,7 +7,6 @@
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 20px;
-    /* width: max-content; */
 }
 
 .booksSection a{

@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Slider from "../../Components/Slider/Slider";
-import Header from "../../Components/NavBar/NavBar";
-import Footer from "../../Components/Footer/Footer";
-import CatalogOfGenres from '../../Components/CatalogOfGenres/CatalogOfGenres';
 import ListBooks from '../../Components/ListBooks/ListBooks';
 import { books, allBooks } from '../../content/books';
 

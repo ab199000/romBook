@@ -23,9 +23,6 @@ export default function Footer(){
                     <li>
                         <NavLink to={"/our_shop"}>АДРЕСА МАГАЗИНОВ</NavLink>
                     </li>
-                    {/* <li>
-                        <NavLink to={"/"}>НАШИ ПАРТНЁРЫ</NavLink>
-                    </li> */}
                     <li>
                         <NavLink to={"/about"}>О КОМПАНИИ</NavLink>
                     </li>
@@ -36,7 +33,6 @@ export default function Footer(){
                         <p>ОБРАТНАЯ СВЯЗЬ</p>
                         <div className={styles.mesMail}>
                             <a href="https://e.mail.ru/compose?to=test@mail.ru" className={styles.mailBlock}>
-                                {/* <input type="mail" placeholder="test@mail.ru"/> */}
                                 <span className={styles.mail}>test@mail.ru</span>
                                 <div className={styles.btnfeedback}></div>
                             </a>

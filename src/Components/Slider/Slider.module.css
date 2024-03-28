@@ -70,7 +70,6 @@
 .slideAnimation{
     width: 790px;
     height: 420px;
-    /* animation: slide 2s infinite; */
     transition: all 0.3s;
     animation: slide 5s infinite ease-in-out;
 }

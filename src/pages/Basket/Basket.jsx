@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../../Components/NavBar/NavBar.jsx";
-import Footer from "../../Components/Footer/Footer.jsx";
 import styles from "./Basket.module.css"
 import BasketItem from "../../Components/BasketItem/BasketItem.jsx";
 
