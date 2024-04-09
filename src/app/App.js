@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import Basket from "../pages/Basket/Basket";
 import BookPage from "../pages/BookPage/BookPage";
-import { Routes, Route,Navigate } from "react-router-dom";
+import { Routes, Route,Navigate, useLocation } from "react-router-dom";
 import MainPage from "../pages/MainPage/MainPage";
 import CatalogPage from "../pages/CatalogPage/CatalogPage";
 import OurShops from "../pages/OurShops/OuerShops";
@@ -13,7 +13,10 @@ import Footer from "../Components/Footer/Footer"
 function App() {
 
     const [searchValue, setSearchValue] = useState('')
-
+    const { pathname } = useLocation()
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, [pathname]);
     return (
         <div className="App">
             <NavBar setSearchValue={setSearchValue}/>
@@ -24,6 +27,7 @@ function App() {
                 <Route path="/catalog/:id" element={<BookPage/>}/>
                 <Route path="/cart" element={<Basket/>}/>
                 <Route path="/our_shop" element={<OurShops/>}/>
+                <Route path="/deferred" element={<CatalogPage nameChapter={"Список отложенных товаров"} genre={'deferred'} searchValue={searchValue}/>}/>
                 <Route path="/realistic_prose" element={<CatalogPage nameChapter={"Реалистическая проза"} genre={'realistic_prose'} searchValue={searchValue}/>}/>
                 <Route path="/detective" element={<CatalogPage nameChapter={"Детектив"} genre={'detective'} searchValue={searchValue}/>}/>
                 <Route path="/adventures" element={<CatalogPage nameChapter={"Приключения"} genre={'adventures'} searchValue={searchValue}/>}/>

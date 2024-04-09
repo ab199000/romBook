@@ -10,7 +10,7 @@ export const book1 = [
     "numberOfPages": 1500,
     "yearOfPublication": 1869,
     "bookSeries": "Русская классика",
-    "bookImage": "https://igromaster.by/upload/iblock/f43/f43d8acb8f3abf706b5ce90890b67e95.jpg",
+    "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/f43d8acb8f3abf706b5ce90890b67e95.webp",
     "reviews": [
         {
             "author": "Иван Петров",
@@ -39,7 +39,7 @@ export const books = [
         "numberOfPages": 1500,
         "yearOfPublication": 1869,
         "bookSeries": "Русская классика",
-        "bookImage": "https://igromaster.by/upload/iblock/f43/f43d8acb8f3abf706b5ce90890b67e95.jpg",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/f43d8acb8f3abf706b5ce90890b67e95.webp",
         "reviews": [
             {
                 "author": "Иван Петров",
@@ -64,7 +64,7 @@ export const books = [
         "numberOfPages": 328,
         "yearOfPublication": 1949,
         "bookSeries": null,
-        "bookImage": "http://static.onlinetrade.ru/img/items/b/1984_oruell_dzhordzh__300205_1.jpg",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/1984_oruell_dzhordzh__300205_1.webp",
         "reviews": [
             {
                 "author": "Мария Иванова",
@@ -89,7 +89,7 @@ export const books = [
         "numberOfPages": 384,
         "yearOfPublication": 1967,
         "bookSeries": null,
-        "bookImage": "https://cdn.skidka-msk.ru/images/prodacts/sourse/62065/62065795_master-i-margarita-izdatelstvo-e.jpg",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/62065795_master-i-margarita-izdatelstvo-e.webp",
         "reviews": [
             {
                 "author": "Анна Смирнова",
@@ -114,7 +114,7 @@ export const books = [
         "numberOfPages": 672,
         "yearOfPublication": 1866,
         "bookSeries": "Русская классика",
-        "bookImage": "https://bibliosfera.su/image/cache/catalog/img/2021/9785170906307-800x1000.jpg",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/9785170906307-800x1000.webp",
         "reviews": [
             {
                 "author": "Екатерина Петрова",
@@ -139,7 +139,7 @@ export const books = [
         "numberOfPages": 96,
         "yearOfPublication": 1943,
         "bookSeries": null,
-        "bookImage": "https://avatars.mds.yandex.net/get-mpic/2008488/img_id3667669770459668975.jpeg/600x800",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/600x800.webp",
         "reviews": [
             {
                 "author": "Мария Иванова",
@@ -165,7 +165,7 @@ export const books = [
         "numberOfPages": 864,
         "yearOfPublication": 1877,
         "bookSeries": "Русская классика",
-        "bookImage": "https://cdn1.ozone.ru/s3/multimedia-s/6537225760.jpg",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/6537225760.webp",
         "reviews": [
             {
                 "author": "Екатерина Иванова",
@@ -190,7 +190,7 @@ export const books = [
         "numberOfPages": 432,
         "yearOfPublication": 1967,
         "bookSeries": null,
-        "bookImage": "https://cdn1.ozone.ru/s3/multimedia-m/6008636746.jpg",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/6008636746.webp",
         "reviews": [
             {
                 "author": "Мария Павлова",
@@ -216,7 +216,7 @@ export const books = [
         "numberOfPages": 800,
         "yearOfPublication": 1880,
         "bookSeries": "Русская классика",
-        "bookImage": "https://cv4.litres.ru/pub/c/cover_330/171949.webp",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/171949.webp",
         "reviews": [
           {
             "author": "Ольга Никитина",
@@ -242,7 +242,7 @@ export const books = [
         "numberOfPages": 1200,
         "yearOfPublication": 1940,
         "bookSeries": "Русская классика",
-        "bookImage": "https://cv3.litres.ru/pub/c/cover_330/9361839.webp",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/9361839.webp",
         "reviews": [
           {
             "author": "Сергей Васильев",
@@ -267,7 +267,7 @@ export const books = [
         "numberOfPages": 300,
         "yearOfPublication": 1934,
         "bookSeries": "Эркюль Пуаро",
-        "bookImage": "https://cv3.litres.ru/pub/c/cover_330/18922333.webp",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/18922333.webp",
         "reviews": [
           {
             "author": "Наталия Смирнова",
@@ -292,7 +292,7 @@ export const books = [
         "numberOfPages": 250,
         "yearOfPublication": 1930,
         "bookSeries": "Эркюль Пуаро",
-        "bookImage": "https://cv8.litres.ru/pub/c/cover_330/24768488.webp",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/24768488.webp",
         "reviews": [
           {
             "author": "Светлана Попова",
@@ -317,7 +317,7 @@ export const books = [
         "numberOfPages": 350,
         "yearOfPublication": 1988,
         "bookSeries": "Ганнибал Лектор",
-        "bookImage": "https://content.img-gorod.ru/nomenclature/27/496/2749601.jpg?width=0&height=1200&fit=bounds",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/2749601.webp",
         "reviews": [
           {
             "author": "Александр Соколов",
@@ -342,7 +342,7 @@ export const books = [
         "numberOfPages": 400,
         "yearOfPublication": 2005,
         "bookSeries": "Миллениум",
-        "bookImage": "https://cv2.litres.ru/pub/c/cover_330/9825426.webp",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/9825426.webp",
         "reviews": [
           {
             "author": "Анна Кузнецова",
@@ -367,7 +367,7 @@ export const books = [
         "numberOfPages": 320,
         "yearOfPublication": 2012,
         "bookSeries": "Нет",
-        "bookImage": "https://cv0.litres.ru/pub/c/cover_330/6028900.webp",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/6028900.webp",
         "reviews": [
           {
             "author": "Ольга Степанова",
@@ -392,7 +392,7 @@ export const books = [
         "numberOfPages": 320,
         "yearOfPublication": 1903,
         "bookSeries": "Нет",
-        "bookImage": "https://cv5.litres.ru/pub/c/cover_330/9063851.webp",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/9063851.webp",
         "reviews": [
           {
             "author": "Марина Ковалева",
@@ -417,7 +417,7 @@ export const books = [
         "numberOfPages": 400,
         "yearOfPublication": 1813,
         "bookSeries": "Нет",
-        "bookImage": "https://cv4.litres.ru/pub/c/cover_330/11280949.webp",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/11280949.webp",
         "reviews": [
           {
             "author": "Анна Иванова",
@@ -442,7 +442,7 @@ export const books = [
         "numberOfPages": 500,
         "yearOfPublication": 2004,
         "bookSeries": "Саксонские истории",
-        "bookImage": "https://cv9.litres.ru/pub/c/cover_330/18408798.webp",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/18408798.webp",
         "reviews": [
           {
             "author": "Елена Васнецова",
@@ -467,7 +467,7 @@ export const books = [
         "numberOfPages": 380,
         "yearOfPublication": 1950,
         "bookSeries": "Нет",
-        "bookImage": "https://cv0.litres.ru/pub/c/cover_330/127506.webp",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/127506.webp",
         "reviews": [
           {
             "author": "Дмитрий Смирнов",
@@ -492,7 +492,7 @@ export const books = [
         "numberOfPages": 32,
         "yearOfPublication": 1812,
         "bookSeries": "Сказки братьев Гримм",
-        "bookImage": "https://s1.livelib.ru/boocover/1001127560/o/a0cc/Vilgelm_Grimm_Yakob_Grimm__Zolushka.jpeg",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/Vilgelm_Grimm_Yakob_Grimm__Zolushka.webp",
         "reviews": [
           {
             "author": "Анна Сергеева",
@@ -510,7 +510,7 @@ export const books = [
 
 export const realistic_prose = [
     {
-        "productId": 5,
+        "productId": 3,
         "bookTitle": "Преступление и наказание",
         "description": "Роман Федора Достоевского о морали и преступлении",
         "price": 950,
@@ -520,7 +520,7 @@ export const realistic_prose = [
         "numberOfPages": 600,
         "yearOfPublication": 1866,
         "bookSeries": "Русская классика",
-        "bookImage": "https://example.com/book1.jpg",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/9785170906307-800x1000.webp",
         "reviews": [
           {
             "author": "Мария Иванова",
@@ -535,7 +535,7 @@ export const realistic_prose = [
         ]
       },
       {
-        "productId": 6,
+        "productId": 7,
         "bookTitle": "Братья Карамазовы",
         "description": "Роман Федора Достоевского о семейных отношениях и морали",
         "price": 1100,
@@ -545,7 +545,7 @@ export const realistic_prose = [
         "numberOfPages": 800,
         "yearOfPublication": 1880,
         "bookSeries": "Русская классика",
-        "bookImage": "https://cv4.litres.ru/pub/c/cover_330/171949.webp",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/171949.webp",
         "reviews": [
           {
             "author": "Ольга Никитина",
@@ -560,7 +560,7 @@ export const realistic_prose = [
         ]
       },
       {
-        "productId": 7,
+        "productId": 5,
         "bookTitle": "Анна Каренина",
         "description": "Роман Льва Толстого о любви и морали в российском обществе",
         "price": 1200,
@@ -570,7 +570,7 @@ export const realistic_prose = [
         "numberOfPages": 1000,
         "yearOfPublication": 1877,
         "bookSeries": "Русская классика",
-        "bookImage": "https://example.com/book3.jpg",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/6537225760.webp",
         "reviews": [
           {
             "author": "Наталья Петрова",
@@ -595,7 +595,7 @@ export const realistic_prose = [
         "numberOfPages": 1200,
         "yearOfPublication": 1940,
         "bookSeries": "Русская классика",
-        "bookImage": "https://cv3.litres.ru/pub/c/cover_330/9361839.webp",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/9361839.webp",
         "reviews": [
           {
             "author": "Сергей Васильев",
@@ -620,7 +620,7 @@ export const realistic_prose = [
         "numberOfPages": 800,
         "yearOfPublication": 1966,
         "bookSeries": "Русская классика",
-        "bookImage": "https://example.com/book5.jpg",
+        "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/62065795_master-i-margarita-izdatelstvo-e.webp",
         "reviews": [
           {
             "author": "Виктория Михайлова",
@@ -649,7 +649,7 @@ export const detective = [
       "numberOfPages": 300,
       "yearOfPublication": 1934,
       "bookSeries": "Эркюль Пуаро",
-      "bookImage": "https://cv3.litres.ru/pub/c/cover_330/18922333.webp",
+      "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/18922333.webp",
       "reviews": [
         {
           "author": "Наталия Смирнова",
@@ -674,7 +674,7 @@ export const detective = [
       "numberOfPages": 250,
       "yearOfPublication": 1930,
       "bookSeries": "Эркюль Пуаро",
-      "bookImage": "https://cv8.litres.ru/pub/c/cover_330/24768488.webp",
+      "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/24768488.webp",
       "reviews": [
         {
           "author": "Светлана Попова",
@@ -699,7 +699,7 @@ export const detective = [
       "numberOfPages": 350,
       "yearOfPublication": 1988,
       "bookSeries": "Ганнибал Лектор",
-      "bookImage": "https://content.img-gorod.ru/nomenclature/27/496/2749601.jpg?width=0&height=1200&fit=bounds",
+      "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/2749601.webp",
       "reviews": [
         {
           "author": "Александр Соколов",
@@ -724,7 +724,7 @@ export const detective = [
       "numberOfPages": 400,
       "yearOfPublication": 2005,
       "bookSeries": "Миллениум",
-      "bookImage": "https://cv2.litres.ru/pub/c/cover_330/9825426.webp",
+      "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/9825426.webp",
       "reviews": [
         {
           "author": "Анна Кузнецова",
@@ -749,7 +749,7 @@ export const detective = [
       "numberOfPages": 320,
       "yearOfPublication": 2012,
       "bookSeries": "Нет",
-      "bookImage": "https://cv0.litres.ru/pub/c/cover_330/6028900.webp",
+      "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/6028900.webp",
       "reviews": [
         {
           "author": "Ольга Степанова",
@@ -776,7 +776,7 @@ export const detective = [
     "numberOfPages": 320,
     "yearOfPublication": 1903,
     "bookSeries": "Нет",
-    "bookImage": "https://cv5.litres.ru/pub/c/cover_330/9063851.webp",
+    "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/9063851.webp",
     "reviews": [
       {
         "author": "Марина Ковалева",
@@ -803,7 +803,7 @@ export const detective = [
     "numberOfPages": 400,
     "yearOfPublication": 1813,
     "bookSeries": "Нет",
-    "bookImage": "https://cv4.litres.ru/pub/c/cover_330/11280949.webp",
+    "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/11280949.webp",
     "reviews": [
       {
         "author": "Анна Иванова",
@@ -830,7 +830,7 @@ export const detective = [
     "numberOfPages": 500,
     "yearOfPublication": 2004,
     "bookSeries": "Саксонские истории",
-    "bookImage": "https://cv9.litres.ru/pub/c/cover_330/18408798.webp",
+    "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/18408798.webp",
     "reviews": [
       {
         "author": "Елена Васнецова",
@@ -857,7 +857,7 @@ export const detective = [
     "numberOfPages": 380,
     "yearOfPublication": 1950,
     "bookSeries": "Нет",
-    "bookImage": "https://cv0.litres.ru/pub/c/cover_330/127506.webp",
+    "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/127506.webp",
     "reviews": [
       {
         "author": "Дмитрий Смирнов",
@@ -884,7 +884,7 @@ export const detective = [
     "numberOfPages": 32,
     "yearOfPublication": 1812,
     "bookSeries": "Сказки братьев Гримм",
-    "bookImage": "https://s1.livelib.ru/boocover/1001127560/o/a0cc/Vilgelm_Grimm_Yakob_Grimm__Zolushka.jpeg",
+    "bookImage": "https://raw.githubusercontent.com/ab199000/imgRombook/main/img/Vilgelm_Grimm_Yakob_Grimm__Zolushka.webp",
     "reviews": [
       {
         "author": "Анна Сергеева",
@@ -899,6 +899,8 @@ export const detective = [
     ]
   },
 ]
+const deferred = [
+  books[0],books[3],books[5],books[3],books[7],books[8],
+]
 
-
-export const allBooks = {books,realistic_prose,detective,adventures,a_love_affair,a_historical_novel,fantasy,fairy_tales}
+export const allBooks = {books,realistic_prose,detective,adventures,a_love_affair,a_historical_novel,fantasy,fairy_tales,deferred}

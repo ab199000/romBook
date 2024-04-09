@@ -9,7 +9,7 @@ import heart from "../../img/heart.svg"
 import CatalogOfGenres from "../CatalogOfGenres/CatalogOfGenres";
 import { NavLink } from "react-router-dom";
 
-export default function Header({setSearchValue}){
+export default function NavBar({setSearchValue}){
     const [isOpen, setIsOpen] = useState(false)
     const [input, setInput] = useState('')
     return (
@@ -39,7 +39,7 @@ export default function Header({setSearchValue}){
                     <img src={page} alt="page" />
                 </button>
                 
-                <NavLink  className={styles.favoriteListBtn}>
+                <NavLink to={'/deferred'} className={styles.favoriteListBtn}>
                     <img src={heart} alt="heart" />
                 </NavLink>
             </div>

@@ -5,7 +5,6 @@ import star from "../../img/star.svg"
 
 export default function BookInforCard({data}){
     useEffect(()=>{
-        console.log(data);
     },[data])
     return (
         <div className={styles.card}>

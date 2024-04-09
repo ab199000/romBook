@@ -35,8 +35,7 @@ export default function ListBooks({way,books,nameGenres}){
 
             <div className={styles.list}>
                 {books.length ? books.map((book,index)=>{
-                    console.log(index);
-                    if(numPosition*4-5 < index && index <= numPosition*4-1) return(<div className={styles.card}><BookCard data={book}/></div>)}): null}
+                    if(numPosition*4-5 < index && index <= numPosition*4-1) return(<div className={styles.card} key={index}><BookCard data={book} key={index}/></div>)}): null}
             </div>
         </section>
     )
